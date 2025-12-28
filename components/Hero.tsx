@@ -26,10 +26,10 @@ export default function Hero() {
   }, [slides.length]);
 
   return (
-    <section className="relative overflow-hidden bg-[#050b18]">
+    <section className="relative overflow-hidden bg-[#050b18] rounded-2xl">
       <div className="grid-overlay z-0" />
-      <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-600/10 to-transparent backdrop-blur-xl z-0" />
-      <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-cyan-500/25 blur-xl animate-blob" />
+      <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-600/10 to-transparent backdrop-blur-xl z-0 rounded-b-md" />
+      <div className="absolute -top-54 -left-14 w-72 h-72 rounded-full bg-cyan-500/25 blur-xl animate-blob" />
       <div className="absolute bottom-0 right-0 w-96 h-96 rounded-full bg-blue-600/25 blur-xl animate-blob animation-delay-2000" />
 
       <div className="container relative z-10 min-h-[80vh] grid md:grid-cols-2 gap-8 items-center px-4">
@@ -91,12 +91,13 @@ export default function Hero() {
             transition={{ delay: 0.55 }}
             className="mt-6"
           >
-            <div className="text-white/60 text-sm mb-3">Clientes e parceiros</div>
+            <div className="text-white/60 text-sm mb-3"></div>
             <div className="flex flex-wrap items-center gap-4">
-              <div className="logo-badge"><Image src="/images/client-1.png" alt="Logo 1" width={80} height={24} className="object-contain" /></div>
-              <div className="logo-badge"><Image src="/images/client-2.png" alt="Logo 2" width={80} height={24} className="object-contain" /></div>
-              <div className="logo-badge"><Image src="/images/client-3.png" alt="Logo 3" width={80} height={24} className="object-contain" /></div>
-              <div className="logo-badge"><Image src="/images/client-4.png" alt="Logo 4" width={80} height={24} className="object-contain" /></div>
+              <div className="logo-badge"><Image src="/python.svg" alt="Logo 1" width={40} height={40} className="object-contain" /></div>
+              <div className="logo-badge"><Image src="/TypeScript.svg" alt="Logo 2" width={40} height={40} className="object-contain" /></div>
+              <div className="logo-badge"><Image src="/TailwindCSS.svg" alt="Logo 3" width={40} height={40} className="object-contain" /></div>
+              <div className="logo-badge"><Image src="/PostgresSQL.svg" alt="Logo 4" width={40} height={40} className="object-contain" /></div>
+              <div className="logo-badge"><Image src="/Node.js.svg" alt="Logo 4" width={40} height={40} className="object-contain" /></div>
             </div>
           </motion.div>
         </div>

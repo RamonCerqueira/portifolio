@@ -1,12 +1,13 @@
 "use client";
-import { ShieldCheckIcon, ChartBarIcon, RocketLaunchIcon, DevicePhoneMobileIcon, SparklesIcon } from "@heroicons/react/24/outline";
+import { ShieldCheckIcon, ChartBarIcon, RocketLaunchIcon, DevicePhoneMobileIcon, SparklesIcon, StarIcon } from "@heroicons/react/24/outline";
 
 const features = [
   { title: 'Segurança Corporativa', desc: 'Criptografia, roles, auditoria e testes.', icon: ShieldCheckIcon },
   { title: 'Escalabilidade', desc: 'Arquitetura preparada para alto volume.', icon: ChartBarIcon },
   { title: 'Entrega Contínua', desc: 'Pipelines e deploys automatizados.', icon: RocketLaunchIcon },
   { title: 'Layouts Responsivos', desc: 'Compatíveis com todos os tamanhos de tela.', icon: DevicePhoneMobileIcon },
-  { title: 'Harmonia Visual', desc: 'Cores e tipografia alinhadas para melhor UX.', icon: SparklesIcon }
+  { title: 'Harmonia Visual', desc: 'Cores e tipografia alinhadas para melhor UX.', icon: SparklesIcon },
+  { title: 'Performance & Acessibilidade', desc:'Carregamento otimizado e interfaces acessíveis para todos os usuários.', icon: StarIcon}
 ]
 
 export default function Features(){

@@ -39,7 +39,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="section relative py-24"
+          className="section relative py-6"
         >
           <div className="container relative z-10">
             <Hero />
@@ -52,7 +52,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="section relative py-12"
+          className="section relative py-4"
         >
           <About />
         </motion.section>
@@ -63,7 +63,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="section relative py-12"
+          className="section relative py-4"
         >
           <div className="container relative z-10">
             <Produtos />
@@ -77,7 +77,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="section relative py-12"
+          className="section relative py-4"
         >
           <div className="container relative z-10">
             <Features />
@@ -91,7 +91,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="section relative py-12"
+          className="section relative py-4"
         >
           <div className="container relative z-10">
             <Clientes />
@@ -107,7 +107,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="section relative py-12"
+          className="section relative py-4"
         >
           <div className="container relative z-10">
             <h3 className="section-title mb-8">Fale Comigo</h3>

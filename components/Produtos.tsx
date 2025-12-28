@@ -12,7 +12,7 @@ const projetos = [
     title: "Clínica Médica",
     text: "Sistema de gestão para clínicas com agendamento e prontuário.",
     img: "/images/projetos/ClinicaMedica.jpg",
-    link: "https://vercel.com/",
+    link: "https://clinica-medica-indol.vercel.app/",
     techs: ["Next.js", "React", "Tailwind"],
     highlights: ["Agendamentos", "Prontuário eletrônico", "Relatórios"]
   },
@@ -20,7 +20,7 @@ const projetos = [
     title: "Cursos",
     text: "Plataforma de cursos com catálogo e área do aluno.",
     img: "/images/projetos/Cursos.jpg",
-    link: "https://vercel.com/",
+    link: "https://learning-softtech.vercel.app/",
     techs: ["React", "Node.js", "PostgreSQL"],
     highlights: ["Catálogo de cursos", "Área do aluno", "Pagamentos"]
   },
@@ -28,7 +28,7 @@ const projetos = [
     title: "Help Tech",
     text: "Suporte técnico com abertura de chamados e SLA.",
     img: "/images/projetos/HelpTech.jpg",
-    link: "https://vercel.com/",
+    link: "https://buscador-tecnico.vercel.app/",
     techs: ["Next.js", "MongoDB"],
     highlights: ["Chamados", "SLA", "Painéis de suporte"]
   },
@@ -44,7 +44,7 @@ const projetos = [
     title: "Fono",
     text: "Aplicativo de acompanhamento fonoaudiológico.",
     img: "/images/projetos/fono.jpg",
-    link: "https://vercel.com/",
+    link: "https://farmaciavivasalvador.vercel.app/",
     techs: ["React Native"],
     highlights: ["Exercícios", "Acompanhamento", "Agenda"]
   },
@@ -52,7 +52,7 @@ const projetos = [
     title: "RFID",
     text: "Controle de acesso e inventário com RFID.",
     img: "/images/projetos/rfid.jpg",
-    link: "https://vercel.com/",
+    link: "https://rfid-two.vercel.app/",
     techs: ["Node.js", "RFID"],
     highlights: ["Inventário", "Acesso", "Logs"]
   },

@@ -107,7 +107,7 @@ export default function ContactForm(){
       <p className="text-textSoft mb-4">Conte rapidamente o que precisa. Respondo em até 24–48h úteis.</p>
       <div className="flex items-center gap-3">
         <button className="neon-cta primary" onClick={() => setOpen(true)} type="button">Abrir formulário</button>
-        <a href="mailto:ramonssa100@gmail.com" className="neon-cta">Enviar email direto</a>
+        <a href="mailto:ramonssa100@gmail.com" className="neon-cta">Enviar email</a>
       </div>
     </div>
   )}
